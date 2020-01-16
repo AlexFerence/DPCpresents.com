@@ -1,0 +1,148 @@
+
+:root{
+    --red: #ea1c2c;
+    --pink: #000000;
+    --purple: rgb(222,192,222);
+}
+
+body {
+    background: #000000;
+    font-family: "Nunito", sans-serif;
+}
+
+video {
+  width: 100%;
+}
+
+#but {
+    font-size:10vw;
+    align-items: center;
+
+}
+
+#gallery {
+    width: 50px;
+    height: 50px;
+}
+
+#paragraph {
+    line-height:4.0;
+}
+
+.photo {
+  width:50px;
+  margin-top: 30px;
+}
+
+.left {
+  padding-left:30px;
+}
+.right {
+  padding-right: 30px;
+}
+
+
+#morespace {
+  padding-top: 50px;
+}
+
+#spacing {
+  margin-top: 7.5px;
+  margin-bottom: 5px;
+}
+
+#grey {
+  background-color: black;
+}
+
+#aboutmargin {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.blurb h2 {
+    color: var(--white);
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: var(--pink);
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+#box {
+    background-color: red;
+    border: 5px solid white;
+    height: 100px;
+}
+
+
+
+#center {
+  margin: 0 auto;
+}
+
+#white {
+  color: white;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+  #mainNavbar .nav-link {
+      color: #fff;
+  }
+
+  #mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+#mainNavbar .navbar-brand {
+
+    color: #ffffff;
+  
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+
+  #heading-group span {
+    color: var(--red);
+  }
+
+  #heading-group h1 {
+      font-weight: 100;
+      font-size: 4rem;
+  }
+  
+  #bottom {
+    margin-bottom: 15px;
+  }
+
+
+
+.navbar.scrolled {
+    /*background-color: var(--purple);*/
+    transition: background 500ms;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+}
+
+  /*MEDIA QUERIES*/
+
+  @media(max-width: 1200px) {
+      #heading-group h1 {
+          font-size: 3rem;
+      }
+  }
